@@ -95,7 +95,7 @@ def specify_suffix_and_dictionary():
         time.sleep(sleep_time)
     
 def specify_the_domain_name():
-    domain_name = input("Domain:")
+    domain_name = input("Domain: ")
     top_level_domain_name_suffix_list = get_top_level_domain_name_suffix()
     top_level_domain_name_suffix_array = [x.split('=')[:-1] for x in top_level_domain_name_suffix_list][1:]
     for domain_name_suffix in top_level_domain_name_suffix_array:
@@ -161,6 +161,6 @@ if __name__ == '__main__':
         specify_suffix_and_dictionary()   
     else:
         clear()
-        print("\nInput error\n ")
+        print("\nInput Error\n ")
         exit()
     
