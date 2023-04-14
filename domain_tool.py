@@ -7,12 +7,12 @@ import threading
 import sys
 import platform
 
-max_thread = 70     # 并发最大线程数
-timeout = 2         # 等待时间
+max_thread = 1     # 并发最大线程数
+timeout = 3         # 等待时间
 socket.setdefaulttimeout(timeout)
 # 设置套接字操作的超时期，timeout是一个浮点数，单位是秒。值为None表示没有超时期。
 # 代表经过timeout秒后，如果还未下载成功，自动跳入下一次操作，此次下载失败。
-sleep_time = 0.001      #推迟调用线程的运行，单位是秒
+sleep_time = 1      #推迟调用线程的运行，单位是秒
 
 
 #调用系统清屏函数
