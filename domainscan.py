@@ -131,7 +131,6 @@ def exit():
     print("Quit")
 
 def welcome():
-    clear()
     print(4 * '=' + 'Menu' + 4 * '='
             + '\n\n'
             + '1. Specify Domain + All TLD\n'
@@ -148,19 +147,14 @@ def welcome():
 if __name__ == '__main__':
     select = welcome()
     if (select == "0"):
-        clear()
         exit()
     elif (select == "1"):
-        clear()
         specify_the_domain_name()
     elif (select == "2"):
-        clear()
         specify_a_dictionary()
     elif select == "3":
-        clear()
         specify_suffix_and_dictionary()   
     else:
-        clear()
         print("\nInput Error\n ")
         exit()
     
