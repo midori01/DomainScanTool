@@ -22,9 +22,9 @@
   >
   > all1+2+3.txt 所有的1位2位3位组合
   >
-  > words_and- 46W个英文单词(含连字符)
+  > words_and-.txt 46W个英文单词(含连字符)
   >
-  > words_no- 37W个英文单词(不含连字符)
+  > words_no-.txt 37W个英文单词(不含连字符)
 
 # CreateDictionary.c 字典生成C语言程序，支持生成以下20种字典
 
