@@ -67,9 +67,9 @@ def get_reginfomation(domain_name, domain_name_suffix_infomation):
         print(f'{domain_name}.{domain_name_suffix_infomation[0]} Taken')
 
 def specify_suffix_and_dictionary():
-    domain_name_suffix = input("TLD:")
-    domain_dictionary = input("Dic name:")
-    domain_name_length = int(input("Number of characters:"))
+    domain_name_suffix = input("TLD: ")
+    domain_dictionary = input("Dic name: ")
+    domain_name_length = int(input("Number of characters: "))
     
     domain_name_list = []
     with open(domain_dictionary,'r') as f:
@@ -106,8 +106,8 @@ def specify_the_domain_name():
         time.sleep(sleep_time)
 
 def specify_a_dictionary():
-    domain_dictionary = input("Dic name:")
-    domain_name_length = int(input("Number of characters:"))
+    domain_dictionary = input("Dic name: ")
+    domain_name_length = int(input("Number of characters: "))
     
     domain_dictionary_list = []
     with open(domain_dictionary,'r') as f:
@@ -138,8 +138,8 @@ def welcome():
             + '2. Specify Dic + All TLD\n'
             + '3. Specify Dic + Specify TLD\n'
             
-            + 'Exit:0' + '\n'
-            + 'Input:' , end=""
+            + 'Exit: 0' + '\n'
+            + 'Input: ' , end=""
         )
         
     select = input()
