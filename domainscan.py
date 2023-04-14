@@ -7,9 +7,9 @@ import sys
 import platform
 
 max_thread = 1
-timeout = 10
+timeout = 5
 socket.setdefaulttimeout(timeout)
-sleep_time = 10
+sleep_time = 5
 
 def clear():
     sysy = platform.system()
